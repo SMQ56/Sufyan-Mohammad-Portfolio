@@ -10,7 +10,7 @@ export const projects = [
       { name: "JavaScript", icon: "/icons/js.png" },
     ],
     github: "https://github.com/SMQ56/Proyecto-2-Portfolio.git",
-    link: "https://proyecto-2-portfolio.vercel.app",
+    link: "https://sufyan-mohammad-portfolio.vercel.app",
   },
   {
     title: "Dynamic Product Gallery",

@@ -39,7 +39,7 @@ export const projects = [
     title: "Rolls-Royce Landing Page",
     description:
       "A static landing page dedicated to Rolls-Royce, showcasing the brand's history, iconic models, and luxury appeal. Built with semantic HTML5 and styled using modern CSS3 techniques.",
-    image: "./public/icons/img-projects/Landing-Page.png",
+    image: "/icons/img-projects/Landing-Page.png",
     tech: ["HTML5", "CSS3"],
     github: "https://github.com/SMQ56/Entrega_Posicionamiento.git",
     link: "",

@@ -1,23 +1,44 @@
 import "./ProjectCard.css";
 
 export const ProjectCard = (project) => `
-<div class="project-card">
-  <img src=${project.image} alt=${project.title} />
-  <div class="header">
+  <article class="project-card">
+    <figure class="project-image-container">
+      <img src="${project.image}" alt="${project.title}" class="project-image" />
+    </figure>
+    
     <h2>${project.title}</h2>
-    <div>
-      <a href=${project.github}>
-        <img src="/icons/github.png" alt="GitHub Icon" />
-      </a>
-      <a href=${project.link}>
-        <img src="/icons/link.png" alt="Link icon" />
-      </a>
-    </div>
-  </div>
-
-  <div class="detail">
     <p>${project.description}</p>
-    <p class="tech">${project.tech.join(" - ")}</p>
-  </div>
-</div>
+
+    <div class="project-detail">
+      
+      <div class="tech-stack">
+        ${project.tech
+          .map(
+            (tech) =>
+              `<img src="${tech.icon}" alt="${tech.name}" title="${tech.name}" />`
+          )
+          .join("")}
+      </div>
+
+      <div class="project-links">
+
+        <a href="${project.github}" target="_blank">
+          <img src="/icons/github.png" alt="GitHub" />
+        </a>
+
+        ${
+          project.link
+            ? `
+          <a href="${project.link}" target="_blank">
+
+            <img src="/icons/link.png" alt="Live Site"/>
+            
+          </a>`
+            : ""
+        }
+
+      </div>
+
+    </div>
+  </article>
 `;

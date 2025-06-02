@@ -1,0 +1,48 @@
+nav {
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 8rem;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 770px) {
+  nav {
+    padding: 0 2rem;
+    justify-content: space-around;
+  }
+}
+
+nav > ul {
+  display: flex;
+  gap: 3rem;
+}
+
+nav button {
+  background: none;
+  border: none;
+  color: inherit;
+  transform: scale(1.5);
+}
+
+nav a {
+  transition: all 0.3s ease-in-out;
+  position: relative;
+}
+
+nav a:hover::after {
+  width: 100%;
+}
+
+nav a::after {
+  content: "";
+  width: 0;
+  height: 4px;
+  border-radius: 4px;
+  position: absolute;
+  background: var(--highlight);
+  left: 0;
+  bottom: -6px;
+  transition: 0.5s;
+}

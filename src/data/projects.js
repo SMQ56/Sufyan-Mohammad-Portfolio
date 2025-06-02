@@ -3,7 +3,7 @@ export const projects = [
     title: "Personal Portfolio",
     description:
       "A single-page portfolio built with Vite to showcase my web development projects, using responsive design and modern UI.",
-    image: "./public/icons/img-projects/Portfolio.png",
+    image: "/icons/img-projects/Portfolio.png",
     tech: ["HTML5", "CSS3", "JavaScript", "Vite"],
     github: "https://github.com/SMQ56/Proyecto-2-Portfolio.git",
     link: "https://proyecto-2-portfolio.vercel.app",
@@ -12,7 +12,7 @@ export const projects = [
     title: "Dynamic Product Gallery",
     description:
       "An interactive video game store built with JavaScript, featuring dynamic product rendering, filters, search, and responsive design.",
-    image: "./public/icons/img-projects/dynamic-gallery.png",
+    image: "/icons/img-projects/dynamic-gallery.png",
     tech: ["HTML5", "CSS3", "JavaScript"],
     github: "https://github.com/SMQ56/DOM-Practice-Dynamic-Gallery.git",
     link: "https://dom-practice-dynamic-gallery.vercel.app/",
@@ -21,7 +21,7 @@ export const projects = [
     title: "Epic Games Store Clone",
     description:
       "A static replica of the Epic Games Store homepage with modern layout and styling using HTML5 and CSS3.",
-    image: "./public/icons/img-projects/EpicGames.png",
+    image: "/icons/img-projects/EpicGames.png",
     tech: ["HTML5", "CSS3"],
     github: "https://github.com/SMQ56/Proyecto_1.git",
     link: "https://proyecto-1epicgames.vercel.app",
@@ -30,7 +30,7 @@ export const projects = [
     title: "Landing Page",
     description:
       "A modern and responsive landing page for a fictional game studio, featuring a full-screen video background, responsive design using Flexbox, and multiple sections showcasing games, services, and a newsletter signup form.",
-    image: "./public/icons/img-projects/flexbox.png",
+    image: "/icons/img-projects/flexbox.png",
     tech: ["HTML5", "CSS3"],
     github: "https://github.com/SMQ56/Flexbox.git",
     link: "https://flexbox-five-neon.vercel.app",

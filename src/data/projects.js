@@ -1,5 +1,33 @@
 export const projects = [
   {
+    title: "Valorant Stats",
+    description:
+      "Fan-made project about Valorant developed with Vite. The goal is to provide a platform where users can explore information about Agents, Weapons, and Maps in a clear and visual way.",
+    image: "/icons/img-projects/valorant-stats.gif",
+    tech: [
+      { name: "HTML5", icon: "/icons/html.png" },
+      { name: "CSS3", icon: "/icons/css.png" },
+      { name: "JavaScript", icon: "/icons/js.png" },
+      { name: "Vite", icon: "/icons/Vite.png" },
+    ],
+    github: "https://github.com/SMQ56/Valorant-Stats.git",
+    link: "https://sufyan-mohammad-portfolio.vercel.app",
+  },
+  {
+    title: "Pinterest Clone",
+    description:
+      "An image search web application inspired by Pinterest, built with JavaScript and the Unsplash API. It features dynamic search, pagination, responsive design, and initial visual suggestions to improve user experience.",
+    image: "/icons/img-projects/Pinterest-Clone.png",
+    tech: [
+      { name: "HTML5", icon: "/icons/html.png" },
+      { name: "CSS3", icon: "/icons/css.png" },
+      { name: "JavaScript", icon: "/icons/js.png" },
+      { name: "Vite", icon: "/icons/Vite.png" },
+    ],
+    github: "https://github.com/SMQ56/Proyecto-3.git",
+    link: "https://proyecto-web-asincrono-zeta.vercel.app",
+  },
+  {
     title: "Personal Portfolio",
     description:
       "A single-page portfolio built with Vite to showcase my web development projects, using responsive design and modern UI.",

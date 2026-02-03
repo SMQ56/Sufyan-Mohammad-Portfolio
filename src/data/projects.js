@@ -11,7 +11,7 @@ export const projects = [
       { name: "Vite", icon: "/icons/Vite.png" },
     ],
     github: "https://github.com/SMQ56/Valorant-Stats.git",
-    link: "https://sufyan-mohammad-portfolio.vercel.app",
+    link: "https://valorant-stats-six.vercel.app",
   },
   {
     title: "Pinterest Clone",
